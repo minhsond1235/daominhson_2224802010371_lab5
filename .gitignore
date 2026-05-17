@@ -1,0 +1,23 @@
+# Backend
+backend/node_modules/
+backend/.env
+
+# Flutter
+flutter_todo/.dart_tool/
+flutter_todo/.flutter-plugins
+flutter_todo/.flutter-plugins-dependencies
+flutter_todo/build/
+flutter_todo/.pub-cache/
+flutter_todo/.flutter-plugins
+flutter_todo/.flutter-plugins-dependencies
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.swp
+*.lock
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,40 @@
+name: flutter_todo
+description: "Flutter Todo App with JWT Authentication"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP & API
+  http: ^1.2.0
+
+  # Local storage (lưu JWT token)
+  shared_preferences: ^2.2.2
+
+  # Decode JWT token
+  jwt_decoder: ^2.0.1
+
+  # Swipe to delete
+  flutter_slidable: ^3.1.0
+
+  # Fonts đẹp
+  google_fonts: ^6.1.0
+
+  # Format ngày tháng
+  intl: ^0.19.0
+
+  # Icons đẹp
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
